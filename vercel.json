@@ -13,6 +13,10 @@
             "dest": "/dist/$1"
         },
         {
+            "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico|mp3|ttf|woff|woff2))",
+            "dest": "/$1"
+        },
+        {
             "src": "/(.*)",
             "dest": "/index.html"
         }
